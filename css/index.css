@@ -84,7 +84,7 @@ nav {
     text-align: center;
 	margin: 0;
 	text-decoration: none;
-	padding: 3vh 4vh;
+	padding: 3vh 9vh;
 }
 
 .nav-img {
@@ -99,7 +99,7 @@ nav img {
 }
 
 .container {
-    width: 800px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -211,4 +211,24 @@ footer nav a {
  }
  #b10 {
     background-color: dodgerblue;
+ }
+
+ .hda {
+     padding-bottom: 4vh;
+ }
+
+ .main-about-content {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .about-content-conatiners {
+     text-align: justify;
+     width: 50%;
+     padding: 3vh;
+ }
+
+ .about-content-conatiners img {
+     width: 100%;
+     padding-bottom: 3vh;
  }
