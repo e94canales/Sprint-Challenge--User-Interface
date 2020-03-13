@@ -261,7 +261,17 @@ footer nav a:hover {
      border-radius: 10px;
      border: 2px black solid;
      outline: none;
+     animation: rotate .5s ease-in 1s infinite alternate;
 
+ }
+
+ @keyframes rotate {
+     from {
+         padding: 1.2vh 3.5vh;
+     }
+     to {
+         padding: 1.2vh 3.7vh;
+     }
  }
 
  .learn:hover {
@@ -278,4 +288,20 @@ footer nav a:hover {
  .box:hover {
      filter: opacity(80%);
      cursor: pointer;
+ }
+
+ .nav-logo {
+     animation: wiggle 2s ease-in 1s infinite alternate;
+ }
+
+ @keyframes wiggle {
+     from {
+         transform: skew(10deg);
+     }
+     to {
+         transform: skew(-10deg);
+     }
+     to {
+         filter: drop-shadow(1px 5px 10px red);
+     }
  }
