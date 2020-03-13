@@ -85,7 +85,11 @@ nav {
     text-align: center;
 	margin: 0;
 	text-decoration: none;
-	padding: 3vh 9vh;
+	padding: 3vh 6vh;
+}
+
+.nav-links a:hover {
+    color: rgb(253, 117, 54);
 }
 
 .nav-img {
@@ -100,7 +104,7 @@ nav img {
 }
 
 .container {
-    width: 1300px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -183,6 +187,10 @@ footer nav a {
     text-decoration: none;
 }
 
+footer nav a:hover {
+    color: rgb(253, 117, 54);
+}
+
 #b1 {
    background-color: teal;
 }
@@ -256,7 +264,18 @@ footer nav a {
 
  }
 
+ .learn:hover {
+     color: white;
+     background-color: black;
+     cursor: pointer;
+ }
+
  .last-container-about {
-     padding: 10vh 0;
+     padding: 8vh 0 6vh 0;
      text-align: justify;
+ }
+
+ .box:hover {
+     filter: opacity(80%);
+     cursor: pointer;
  }
