@@ -51,6 +51,7 @@ table {
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -66,6 +67,37 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: baseline;
+}
+
+.nav-links a {
+    color: black;
+    text-align: center;
+	margin: 0;
+	text-decoration: none;
+	padding: 3vh 4vh;
+}
+
+.nav-img {
+    display: flex;
+    align-items: center;
+
+}
+
+nav img {
+    align-self: center;
+
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +109,11 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.header-img {
+    width: 100%;
+    margin-bottom: 4vh;
 }
 
 .top-content .text-container {
@@ -144,3 +181,34 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+#b1 {
+   background-color: teal;
+}
+#b2 {
+    background-color: gold;
+ }
+ #b3 {
+    background-color: cadetblue;
+ }
+ #b4 {
+    background-color: coral;
+ }
+ #b5 {
+    background-color: crimson;
+ }
+ #b6 {
+    background-color: forestgreen;
+ }
+ #b7 {
+    background-color: darkorchid;
+ }
+ #b8 {
+    background-color: hotpink;
+ }
+ #b9 {
+    background-color: indigo;
+ }
+ #b10 {
+    background-color: dodgerblue;
+ }
